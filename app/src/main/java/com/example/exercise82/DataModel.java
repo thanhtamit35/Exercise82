@@ -1,6 +1,8 @@
 package com.example.exercise82;
 
-public class DataModel {
+import java.io.Serializable;
+
+public class DataModel implements Serializable {
     private int info;
     private String fullName;
     private String gender;

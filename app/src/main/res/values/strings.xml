@@ -9,4 +9,5 @@
     <string name="add_new_text">Thêm mới</string>
     <string name="print_list_text">In danh sách</string>
     <string name="employees_list_text">Danh sách nhân viên</string>
+    <string name="image_text">image</string>
 </resources>

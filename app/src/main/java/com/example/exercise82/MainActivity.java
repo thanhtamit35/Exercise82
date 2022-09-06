@@ -22,12 +22,12 @@ public class MainActivity extends AppCompatActivity {
     RadioButton rdoButton;
     Button btnAddNew;
     Button btnPrintList;
-    private final ArrayList<DataModel> employees = new ArrayList<>();
+    private ArrayList<DataModel> employees = new ArrayList<>();
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_second);
+        setContentView(R.layout.activity_main);
 
         mapping();
         addListenerOnButtonClick();
@@ -57,7 +57,6 @@ public class MainActivity extends AppCompatActivity {
         btnPrintList.setOnClickListener(view -> {
 
             Intent intent = new Intent(getApplicationContext(), SecondActivity.class);
-//            intent.putStringArrayListExtra("data", data);
             intent.putExtra("data", employees);
             startActivity(intent);
         });
