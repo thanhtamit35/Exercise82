@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Exercise82</string>
+    <string name="avatar_text">avatar</string>
+    <string name="fullName_text">Họ và tên:</string>
+    <string name="gender_text">Giới tính:</string>
+    <string name="address_text">Địa chỉ:</string>
+    <string name="male_text">Nam</string>
+    <string name="female_text">Nữ</string>
+    <string name="add_new_text">Thêm mới</string>
+    <string name="print_list_text">In danh sách</string>
+    <string name="employees_list_text">Danh sách nhân viên</string>
 </resources>
